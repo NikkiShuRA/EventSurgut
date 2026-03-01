@@ -1,0 +1,22 @@
+# ОС
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Node.js (если понадобится)
+node_modules/
+package-lock.json
+
+# Сборщики
+dist/
+build/
+
+# Лог-файлы
+*.log
+
+# Временные файлы
+*.tmp
+*.swp
