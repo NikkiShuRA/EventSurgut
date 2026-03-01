@@ -3,20 +3,27 @@
 Thumbs.db
 
 # VS Code
-.vscode/
-*.code-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.history/
 
-# Node.js (если понадобится)
+# Node.js (на будущее, если понадобится)
 node_modules/
-package-lock.json
+.npm
+.eslintcache
+.stylelintcache
 
-# Сборщики
+# Сборщики (если будешь использовать)
 dist/
 build/
+.cache/
 
-# Лог-файлы
+# Логи
 *.log
+npm-debug.log*
+yarn-error.log*
 
-# Временные файлы
-*.tmp
-*.swp
+# Переменные окружения
+.env
+.env.local
