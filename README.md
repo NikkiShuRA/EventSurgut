@@ -24,7 +24,7 @@
 
 1. Клонируйте репозиторий:
     ```bash
-    git clone [URL-репозитория]
+    git clone https://github.com/NikkiShuRA/EventSurgut.git
     ```
 
 2. Откройте файл `index.html` в браузере или используйте [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) в [VS Code](https://code.visualstudio.com/)
